@@ -58,12 +58,12 @@ def parse_args():
     )
 
     parser.add_argument(
-        "--input",
+        "-i", "--input",
         required=True,
         help="圧縮したいフォルダの絶対パス（相対パスでもOK）"
     )
     parser.add_argument(
-        "--output",
+        "-o", "--output",
         help=".tar.lz4 の出力先（省略すると自動生成）"
     )
 
